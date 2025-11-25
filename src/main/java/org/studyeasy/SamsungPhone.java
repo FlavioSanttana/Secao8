@@ -6,4 +6,9 @@ public class SamsungPhone implements Phone {
     public String processador (){
         return "1000";
     }
+
+    @Override
+    public int spaceInGb(){
+        return 564;
+    }
 }
